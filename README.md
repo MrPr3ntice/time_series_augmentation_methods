@@ -5,7 +5,7 @@ Abbreviations:
  - dist.: Probability distribution
  - para: Parameter(s)
  - std.: standard deviation
- - estd(s/p): empirical standard deviation of series or panel data
+ - estd(s/p) / emean(s/p): empirical standard deviation / mean of series or panel data
  - A &prop; B: Term A is proportional to term B.
  - A &sim; B: Random variable A's distribution is given by distribution B.
 
@@ -17,8 +17,8 @@ Abbreviations:
 |WhiteNoise|![image white noise](img/White_noise.png)|Augmenter adding Gaussian (i.e. white) noise to each TS.|std. of noise|1|std of noise &prop; estd(s/p)|no|yes|no| |
 |Noise|![image Outliers](img/Noise.png)| Augmeter adding any user defined noise dist. to TS.|noise distribution description|dep.|dist. scale para. &prop; estd(s/p)|no|yes|no| |
 |Invert|![image invert](img/Invert.png)|Augmenter inverting the TS (i.e. multiply each value with -1).|-|0|-|yes|no|no| |
-|Scale|![image scale](img/Scale.png)|Augmenter scaling the TS by a constant factor.|scale factor|1|scale factor %prop; estd(s/p)|yes|no|no| |
-|Offset|![image offset](img/Offset.png)|Augmenter adding a constant offset to the TS.|offset|1|offset &prop; mean(s/p)|yes|no|no| |
+|Scale|![image scale](img/Scale.png)|Augmenter scaling the TS by a constant factor.|scale factor|1|scale factor &prop; estd(s/p)|yes|no|no| |
+|Offset|![image offset](img/Offset.png)|Augmenter adding a constant offset to the TS.|offset|1|offset &prop; emean(s/p)|yes|no|no| |
 |Drift|![image drift](img/Drift.png)|Augmenter adding a random Wiener Process to TS.|std. of Wiener process|1|std of Wiener &prop; estd(s/p)|no|yes|no| |
 |Clip|![image clip](img/Clip.png)|Augmenter clipping the TS between definable min and max values.|min, max|2|min, max &prop; quantile(s/p)|no|no|no| |
 |Quantize|![image quantize](img/Quantize.png)|Augmenter quantizes TS (down) to defined resolution.|resolution increment|1|resolution increment &prop; estd(s/p)|no|no|no| |
