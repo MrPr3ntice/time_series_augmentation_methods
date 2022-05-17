@@ -18,6 +18,7 @@ Abbreviations:
 |Noise|![image Outliers](img/Noise.png)| Augmeter adding any user defined noise dist. to TS.|noise distribution description|dep.|dist. scale para. &prop; estd(s/p)|no|yes|no| |
 |Invert|![image invert](img/Invert.png)|Augmenter inverting the TS (i.e. multiply each value with -1).|-|0|-|yes|no|no| |
 |Scale|![image scale](img/Scale.png)|Augmenter scaling the TS by a constant factor.|scale factor|1|scale factor &prop; estd(s/p)|yes|no|no| |
+|MagnitudeWarp|![image scale](img/Magnitude_warp.png)| desc | para | no. | fittable | rev. | rand. | length | sources |
 |Offset|![image offset](img/Offset.png)|Augmenter adding a constant offset to the TS.|offset|1|offset &prop; emean(s/p)|yes|no|no| |
 |Drift|![image drift](img/Drift.png)|Augmenter adding a random Wiener Process to TS.|std. of Wiener process|1|std of Wiener &prop; estd(s/p)|no|yes|no| |
 |Clip|![image clip](img/Clip.png)|Augmenter clipping the TS between definable min and max values.|min, max|2|min, max &prop; quantile(s/p)|no|no|no| |
@@ -51,7 +52,6 @@ Abbreviations:
 
 | Augmentor Name | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example&nbsp;(click&nbsp;to&nbsp;enlarge)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short&nbsp;description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parameters&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | No. of para. | Fittable&nbsp;Param.&nbsp;to series / panel? | reversible | random | changing TS length | Sources |
 | :-- | :---: | :-------------- | :------- | :--: | :--- | :------: | :--: | :--------------: | :-- |
-|FrequencyFilter| img | desc | para | no. | fittable | rev. | rand. | length | sources |
 |LowPassFilter| img | desc | para | no. | fittable | rev. | rand. | length | sources |
 |HighPassFilter| img | desc | para | no. | fittable | rev. | rand. | length | sources |
 |BandStopFilter| img | desc | para | no. | fittable | rev. | rand. | length | sources |
