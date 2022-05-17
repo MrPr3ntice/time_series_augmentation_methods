@@ -28,13 +28,13 @@ Abbreviations:
 
 | Augmentor Name | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example&nbsp;(click&nbsp;to&nbsp;enlarge)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short&nbsp;description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parameters&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | No. of para. | Fittable&nbsp;Param.&nbsp;to series / panel? | reversible | random | changing TS length | Sources |
 | :-- | :---: | :-------------- | :------- | :--: | :--- | :------: | :--: | :--------------: | :-- |
-|Reverse| img | desc | para | no. | fittable | rev. | rand. | length | sources |
-|ClipTime| img | desc | para | no. | fittable | rev. | rand. | length | sources |
-|Jitter| img | desc | para | no. | fittable | rev. | rand. | length | sources |
-|Resample| img | desc | para | no. | fittable | rev. | rand. | length | sources |
-|ScaleTime| img | desc | para | no. | fittable | rev. | rand. | length | sources |
-|OffsetTime| img | desc | para | no. | fittable | rev. | rand. | length | sources |
-|RandomTimeWarp| img | desc | para | no. | fittable | rev. | rand. | length | sources |
+|Reverse|![image invert](img/Reverse.png)| desc | para | no. | fittable | rev. | rand. | length | sources |
+|ClipTime|![image invert](img/Clip_time.png)| desc | para | no. | fittable | rev. | rand. | length | sources |
+|Jitter|![image invert](img/Jitter.png)| desc | para | no. | fittable | rev. | rand. | length | sources |
+|Resample|![image invert](img/Resample.png)| desc | para | no. | fittable | rev. | rand. | length | sources |
+|ScaleTime|![image invert](img/Scale_time.png)| desc | para | no. | fittable | rev. | rand. | length | sources |
+|OffsetTime|![image invert](img/Offset_time.png)| desc | para | no. | fittable | rev. | rand. | length | sources |
+|RandomTimeWarp|![image invert](img/Random_time_warp.png)| desc | para | no. | fittable | rev. | rand. | length | sources |
 
 ## 3: Rearranging augmentation methods
 
